@@ -1,4 +1,4 @@
-﻿using EmployeeManagement.Model.Entity;
+﻿using EmployeeManagement.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement.Data
@@ -7,6 +7,8 @@ namespace EmployeeManagement.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<Employee> Employees { get; set; }
+
+        DbSet<UserLogin> UserLogins { get; set; }
 
     }
 }
