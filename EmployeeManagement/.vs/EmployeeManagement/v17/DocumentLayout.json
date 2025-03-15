@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Migrations\\20250315080913_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -77,13 +77,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwGEAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T07:50:32.594Z",
               "EditorCaption": ""
@@ -103,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T07:34:50.85Z",
               "EditorCaption": ""
