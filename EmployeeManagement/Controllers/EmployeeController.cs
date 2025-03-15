@@ -50,7 +50,7 @@ namespace EmployeeManagement.Controllers
             //Using EmployeeDTOS
             var employeeDto = new EmployeeDTO
             {
-                Id = employee.Id,
+                Id =employee.Id,
                 FirstName = employee.FirstName,
                 LastName = employee.LastName,
                 Email = employee.Email,
@@ -76,7 +76,7 @@ namespace EmployeeManagement.Controllers
                 Salary = employeeDto.Salary
             };
             var createdEmployee = _employeeService.CreateEmployee(employee);
-            return CreatedAtAction(nameof(GetEmployeeById), new { id = createdEmployee.Id }, employeeDto);
+            return CreatedAtAction(nameof(GetEmployeeById), new { id = createdEmployee.Id }, createdEmployee);
         }
 
         //Update Request to Update Employee with Id 
@@ -97,7 +97,7 @@ namespace EmployeeManagement.Controllers
             if (updatedEmployee == null) 
                 return NotFound(new { message = "Employee not found." });
 
-            return Ok(employeeDto);
+            return Ok(updatedEmployee);
         }
 
         //Delete Request to Delete Employee with ID

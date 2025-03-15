@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Migrations\\20250315080913_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250315080913_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|d:\\sql\\project\\q3_rest_api.net\\employeemanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938EEDB5-0A2F-409B-86B6-A5CD6B346463}|EmployeeManagement.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250315080913_initial.cs",
-              "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Migrations\\20250315080913_initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250315080913_initial.cs",
-              "ToolTip": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Migrations\\20250315080913_initial.cs",
-              "RelativeToolTip": "Migrations\\20250315080913_initial.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:09:13.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UserLoginDTO.cs",
               "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\DTOs\\UserLoginDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UserLoginDTO.cs",
@@ -64,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "UserLogin.cs",
               "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Model\\UserLogin.cs",
               "RelativeDocumentMoniker": "Model\\UserLogin.cs",
@@ -77,41 +60,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAqwGEAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAxwFgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T07:50:32.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeDTO.cs",
-              "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\DTOs\\EmployeeDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\EmployeeDTO.cs",
-              "ToolTip": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\DTOs\\EmployeeDTO.cs",
-              "RelativeToolTip": "DTOs\\EmployeeDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T07:38:19.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwBkAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T07:34:50.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "46bda5ea-eb9e-4942-bfdd-6721122f6cc7",
+        "Display": 0,
+        "X": 894,
+        "Y": 186,
+        "Width": 1207,
+        "Height": 598,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\DTOs\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmployeeDTO.cs",
+              "ToolTip": "D:\\SQL\\Project\\Q3_Rest_API.NET\\EmployeeManagement\\DTOs\\EmployeeDTO.cs",
+              "RelativeToolTip": "DTOs\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:38:19.989Z",
               "EditorCaption": ""
             }
           ]
