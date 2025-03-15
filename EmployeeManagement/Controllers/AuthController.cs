@@ -1,17 +1,13 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Azure.Core;
-using EmployeeManagement.Model;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity.Data;
+using EmployeeManagement.DTOs;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
 namespace EmployeeManagement.Controllers
 {
-    [Route("api/auth")]
+    [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
@@ -23,14 +19,16 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] UserLogin user)
+        public IActionResult Login([FromBody] UserLoginDTO loginDto)
         {
-            if(user.UserName == "Admin" && user.Password == "Admin@123")
+            //Checking Login Credential 
+            //Used loginDto DTOs
+            if(loginDto.UserName == "Admin" && loginDto.Password == "Rohit@123")
             {
-                var token = GenerateJwtToken(user.UserName);
+                var token = GenerateJwtToken(loginDto.UserName);
                 return Ok(new { token });
             }
-                return Unauthorized(new { message = "Invalid username or password" });
+                return Unauthorized(new { message = "Invalid UserName Or Password" });
 
         }
 

@@ -2,14 +2,14 @@
   {
     "ContainingType": "EmployeeManagement.Controllers.AuthController",
     "Method": "Login",
-    "RelativePath": "api/auth/login",
+    "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "EmployeeManagement.Model.UserLogin",
+        "Name": "loginDto",
+        "Type": "EmployeeManagement.DTOs.UserLoginDTO",
         "IsRequired": true
       }
     ],
@@ -34,8 +34,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "EmployeeManagement.Model.Employee",
+        "Name": "employeeDto",
+        "Type": "EmployeeManagement.DTOs.EmployeeDTO",
         "IsRequired": true
       }
     ],
@@ -71,8 +71,8 @@
         "IsRequired": true
       },
       {
-        "Name": "employee",
-        "Type": "EmployeeManagement.Model.Employee",
+        "Name": "employeeDto",
+        "Type": "EmployeeManagement.DTOs.EmployeeDTO",
         "IsRequired": true
       }
     ],

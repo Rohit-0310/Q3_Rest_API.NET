@@ -11,11 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
 
-// Configure Swagger with JWT Authentication Support
+// Swagger Configuration with JWT Authentication
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "EmployeeManagement", Version = "v1" });
@@ -47,7 +45,6 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// Configuring Database Connection
 
 // Configuring Database Connection
 builder.Services.AddDbContext<AppDbContext>(
