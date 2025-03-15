@@ -23,7 +23,7 @@ namespace EmployeeManagement.Controllers
         {
             //Checking Login Credential 
             //Used loginDto DTOs
-            if(loginDto.UserName == "Admin" && loginDto.Password == "Rohit@123")
+            if(loginDto.UserName == "Admin" && loginDto.Password == "Admin@123")
             {
                 var token = GenerateJwtToken(loginDto.UserName);
                 return Ok(new { token });

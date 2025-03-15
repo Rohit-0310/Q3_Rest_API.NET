@@ -45,7 +45,7 @@ namespace EmployeeManagement.Controllers
         public IActionResult GetEmployeeById(int id)
         {
             var employee =   _employeeService.GetEmployeeById(id);
-            if (employee == null) return NotFound();
+            if (employee == null) return NotFound(new { message = "Employee not found." });
 
             //Using EmployeeDTOS
             var employeeDto = new EmployeeDTO
@@ -95,7 +95,7 @@ namespace EmployeeManagement.Controllers
 
             var updatedEmployee = _employeeService.UpdateEmployee(id, employee);
             if (updatedEmployee == null) 
-                return NotFound();
+                return NotFound(new { message = "Employee not found." });
 
             return Ok(employeeDto);
         }
